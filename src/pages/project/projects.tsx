@@ -58,7 +58,6 @@ export default function ProjectGallery() {
           </p>
         </div>
 
-        {/* Grid Project Gallery dengan animasi */}
         <div className="gallery-grid">
           {projects.map((project, index) => (
             <div
