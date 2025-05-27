@@ -2,8 +2,8 @@ import DashboardLayout from "@/layout/dashboerd-layout";
 import { useEffect } from "react";
 import AOS from 'aos';
 import '../../../node_modules/aos/dist/aos.css';
-import gambar1 from '@/assets/svg/undraw_qa-engineers_kgp8.svg';
-import gambar2 from '@/assets/svg/undraw_investing_kncz.svg';
+// import gambar1 from '@/assets/svg/undraw_qa-engineers_kgp8.svg';
+// import gambar2 from '@/assets/svg/undraw_investing_kncz.svg';
 
 export default function CostPlanningScreen() {
   useEffect(() => {
