@@ -55,7 +55,7 @@ export default function MenuHeaderSection() {
       {/* Menu */}
       <ul
         className={cn(
-          "flex grid-col md:flex-row gap-1 md:gap-12 p-4 md:p-0 fixed md:sticky  top-20 right-0 bg-white md:bg-transparent rounded-lg md:rounded-none transition-all ",
+          "flex grid-col md:flex-row gap-1 md:gap-12 p-4 md:p-0 fixed md:sticky  top-18 right-0 bg-stone- bg-opacity-80 md:bg-transparent rounded-lg md:rounded-none transition-all ",
           isOpen ? "block" : "hidden md:flex"
         )}
       >
