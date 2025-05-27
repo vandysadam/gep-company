@@ -74,7 +74,7 @@ export default function About() {
             </p>
           </div>
           <div className="relative border-4 col-span-2 px-5 mt-20 border-stone-400" data-aos="fade-left">
-              <h3 className="absolute font-bold text-5xl sm:text-6xl lg:text-7xl py-2 -mt-8 ml-32 px-5 sm:py-4 sm:-mt-12 sm:ml-[400px] sm:px-5 md:ml-[450px] lg:py-8 lg:-mt-20 lg:ml-[90px] lg:px-5 text-stone-400 bg-neutral-50"> TUJUAN </h3>
+              <h3 className="absolute font-bold text-5xl sm:text-6xl lg:text-7xl py-2 -mt-8 ml-27 px-5 sm:py-4 sm:-mt-12 sm:ml-[400px] sm:px-5 md:ml-[450px] lg:py-8 lg:-mt-20 lg:ml-[90px] lg:px-5 text-stone-400 bg-neutral-50"> TUJUAN </h3>
                 {services.map((service, index) => (
                   <Card key={index} className="group p-5 m-4 mt-10 text-center transition duration-300 transform hover:scale-105 hover:bg-zinc-500 hover:text-white shadow-lg rounded-xl flex flex-col items-center ">
                   <service.icon className="w-12 h-12 text-indigo-700  mb-3 transition duration-300 group-hover:text-white"/>
@@ -88,7 +88,7 @@ export default function About() {
         <div className="bg-neutral-50 h-20"></div>
         
 
-        <div className="relative border-8 border-stone-400 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-4 max-w-7xl mx-auto px-auto sm:px-4 lg:px-6 mt-20 pt-16 py-10" data-aos="fade-up">
+        <div className="relative border-8 border-stone-400 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 max-w-7xl mx-auto px-auto sm:px-4 lg:px-6 mt-20 pt-16 py-10" data-aos="fade-up">
         <div className="absolute font-bold text-[40px] sm:text-[90px] lg:text-[124px] text-stone-400 font-arial px-5 -mt-10 sm:-mt-[100px] lg:-mt-[115px] bg-neutral-50" data-aos="fade-right">LINGKUP QS</div>
 
         <div className="block sm:hidden px-4">
