@@ -1,29 +1,30 @@
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 
 
-const components: { title: string; href: string; }[] = [
+const components: { title: string; to: string; }[] = [
   {
     title: "Home",
-    href: "/",
+    to: "/",
   },
   {
     title: "About",
-    href: "/about",
+    to: "/about",
   },
   {
     title: "Project",
-    href: "/project",
+    to: "/project",
   },
   {
     title: "Cost Planning",
-    href: "/costplaning",
+    to: "/costplaning",
   },
   {
     title: "Contact",
-    href: "/contact",
+    to: "/contact",
   },
 
 ]
@@ -59,7 +60,7 @@ export default function MenuHeaderSection() {
         )}
       >
         {components.map((component) => (
-          <ListItem key={component.title} title={component.title} href={component.href} />
+          <ListItem key={component.title} title={component.title} to={component.to} />
         ))}
       </ul>
     </nav>
@@ -67,25 +68,30 @@ export default function MenuHeaderSection() {
 }
 
 
+
+type ListItemProps = React.ComponentPropsWithoutRef<typeof Link> & {
+  title: string;
+};
+
+
 const ListItem = React.forwardRef<
-  React.ElementRef<"a">,
-  React.ComponentPropsWithoutRef<"a">
+HTMLAnchorElement,
+  ListItemProps
 >(({ className, title, children, ...props }, ref) => {
   return (
     <li>
-        <a
-          ref={ref}
-          className={cn(
-            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors focus:bg-accent focus:text-accent-foreground",
-            className
-          )}
-          {...props}
-        >
+        <Link
+        ref={ref}
+        className={cn(
+          "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors focus:bg-accent focus:text-accent-foreground",
+          className
+        )}
+        {...props}        >
           <div className="text-lg font-small leading-none">{title}</div>
           <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
             {children}
           </p>
-        </a>
+        </Link>
     </li>
   )
 })

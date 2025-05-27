@@ -6,7 +6,7 @@ import AppRouter from './../router/app-router';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/gep-company">
         <AppRouter />
     </BrowserRouter>
 </StrictMode>
