@@ -1,12 +1,21 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { useNavigate } from "react-router-dom";
-import GalleryCiumbeluit from "../../../src//assets/images/Data Foto Proyek/Proyek-Apartemen-Galeri-Ciumbuleuit-3-Bandung.webp";
-import PacificGardenStyle from "../../../src//assets/images/Data Foto Proyek/Proyek-Apartement-Pacific-Gardeb-Style-Tangerang.webp";
-import ReginaMaris from "../../../src//assets/images/Data Foto Proyek/Proyek-RS-Reginamaris-Medan.webp";
-import BudiLestariBekasi from "../../../src//assets/images/Data Foto Proyek/Proyek-Budi-lestari-bekasi2.webp";
-import Hegarmanah from "../../../src//assets/images/Data Foto Proyek/Proyek-Hegarmanah-Residence-Bandung.webp";
-import Queencity from "../../../src//assets/images/Data Foto Proyek/Proyek-Queen-City-semarang.webp";
+// import GalleryCiumbeluit from "../../../src//assets/images/Data Foto Proyek/Proyek-Apartemen-Galeri-Ciumbuleuit-3-Bandung.webp";
+// import PacificGardenStyle from "../../../src//assets/images/Data Foto Proyek/Proyek-Apartement-Pacific-Gardeb-Style-Tangerang.webp";
+// import ReginaMaris from "../../../src//assets/images/Data Foto Proyek/Proyek-RS-Reginamaris-Medan.webp";
+// import BudiLestariBekasi from "../../../src//assets/images/Data Foto Proyek/Proyek-Budi-lestari-bekasi2.webp";
+// import Hegarmanah from "../../../src//assets/images/Data Foto Proyek/Proyek-Hegarmanah-Residence-Bandung.webp";
+// import Queencity from "../../../src//assets/images/Data Foto Proyek/Proyek-Queen-City-semarang.webp";
+import GalleryCiumbeluit from "../../../src//assets/images/Data-Foto-Proyek/proyek-apartmen-gallery-ciumbeluit/Proyek-Apartemen-Galeri-Ciumbuleuit-3-Bandung.webp";
+import PacificGardenStyle from "../../../src//assets/images/Data-Foto-Proyek/proyek-apartmen-pacific-garden-style/Proyek-Apartement-Pacific-Gardeb-Style-Tangerang.webp";
+import ReginaMaris from "../../../src//assets/images/Data-Foto-Proyek/proyek-rs-regina-mais-medan/Proyek-RS-Reginamaris-Medan.webp";
+import BudiLestariBekasi from "../../../src//assets/images/Data-Foto-Proyek/proyek-budi-lestari/BDLSTR-1.webp";
+import Hegarmanah from "../../../src//assets/images/Data-Foto-Proyek/proyek-hegarmanah-residence-bandung/Proyek-Hegarmanah-Residence-Bandung.webp";
+import Queencity from "../../../src//assets/images/Data-Foto-Proyek/proyek-queen-city-semarang/Proyek-Queen-City-semarang.webp";
+
+
+
 
 const projects = [
     { title: "Proyek Gallery ciumbeluit 3 - Bandung", image: GalleryCiumbeluit },
@@ -31,8 +40,14 @@ export default function Menu3Section() {
         {/* Grid Project Cards */}
             <div className="flex flex-wrap justify-center gap-x-2 gap-y-3 w-full mx-auto mt-10">
                 {projects.slice(0, 6).map((project, index) => (
-                    <Card onClick={() => navigate("/project")} key={index} className="relative w-[300px] h-[200px] lg:w-[500px] lg:h-[400px] sm:h-[200px] sm:w-[300px] overflow-hidden rounded-xl shadow-lg group">
-                        <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" />
+                    <Card 
+                    onClick={() => navigate("/project")} 
+                    key={index} 
+                    className="relative w-[300px] h-[200px] lg:w-[500px] lg:h-[400px] sm:h-[200px] sm:w-[300px] overflow-hidden rounded-xl shadow-lg group">
+                        <img 
+                            src={project.image} 
+                            alt={project.title} 
+                            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" />
                         <div className="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-opacity-50 transition duration-300 flex items-center justify-center">
                             <h3 className="text-sm sm:text-base font-bold text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-center px-2">
                                 {project.title}

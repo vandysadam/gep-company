@@ -71,10 +71,6 @@ const SectionFooter = () => {
           </div>
         </div>
 
-        {/* Footer Bottom */}
-        <div className="mt-8 border-t border-gray-600 pt-4 text-center">
-          <p className="text-sm opacity-80">&copy; {new Date().getFullYear()} QS Company. All rights reserved.</p>
-        </div>
       </div>
     </footer>
   )

@@ -15,7 +15,7 @@ const Contact = () => {
     <DashboardLayout>
       <div className="relative w-full py-16 bg-white overflow-hidden">
         <h2
-          className="text-4xl font-bold text-center mb-12 text-indigo-900"
+          className="text-2xl sm:text-4xl font-bold text-center mb-12 text-indigo-900"
           data-aos="fade-down"
         >
           Hubungi Kami

@@ -42,9 +42,16 @@ export default function Menu1Section() {
                 </div>
 
                 {/* Content */}
-                <div className="pl-10 z-10 text-white px-4 pt-20 md:px-6 text-left md:text-left w-full max-w-2xl mx-20 ">
+                <div className="pl-10 z-10 text-white px-4 pt-20 md:px-4 text-left md:text-left w-full max-w-5xl mx-20 ">
                 <h1
                 className={`text-4xl md:text-5xl lg:text-7xl font-extrabold text-white drop-shadow-[3px_5px_2px_rgba(0,0,0,0.9)] transition-all duration-1000 ease-out ${
+                    isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
+                }`}
+                >
+                PT. Graha Estimatika Pradana
+                </h1>
+                <h1
+                className={`text-2xl md:text-3xl lg:text-4xl font-extrabold text-white drop-shadow-[3px_5px_2px_rgba(0,0,0,0.9)] transition-all duration-1000 ease-out ${
                     isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
                 }`}
                 >

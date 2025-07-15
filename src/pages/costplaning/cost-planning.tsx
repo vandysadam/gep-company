@@ -15,7 +15,7 @@ export default function CostPlanningScreen() {
   return (
     <DashboardLayout>
       <section className="w-full py-16 bg-gray-50 overflow-hidden px-8 md:px-16 lg:px-80">
-        <h1 className="text-5xl sm:text-4xl text-center font-extrabold text-indigo-900 mb-10">
+        <h1 className="text-2xl sm:text-4xl text-center font-extrabold text-indigo-900 mb-10">
           Cost Planning
         </h1>
         <div className="text-2xl font-bold mb-16 text-gray-800 text-center" data-aos="fade-down">

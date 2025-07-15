@@ -3,6 +3,7 @@ import { Route, Routes, useLocation } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css'; 
 import { ToastContainer } from 'react-toastify';
 import DashboardLoaderPage from './../src/pages/dashboard-loader';
+import ProjectSlider from '@/pages/project/projects-slider';
 
 const HomeScreen = React.lazy(() => import('../src/pages/homescreen/home-screen'));
 const AboutScreen = React.lazy(() => import('../src/pages/about/about-screen'));
@@ -38,7 +39,19 @@ const AppRouter: React.FC = () => {
             </React.Suspense>
           }
         ></Route>
-        <Route
+        <Route>
+          <Route
+            path="/project"
+            element={
+              <React.Suspense fallback={<DashboardLoaderPage />}>
+                <ProjectScreen />
+                
+              </React.Suspense>
+            }
+          />
+          <Route path="/project/:id" element={<ProjectSlider />}></Route>
+        </Route>
+        {/* <Route
           path="/project"
           element={
             <React.Suspense fallback={<DashboardLoaderPage />}>
@@ -50,7 +63,7 @@ const AppRouter: React.FC = () => {
                 </Routes>
             </React.Suspense>
           }
-        ></Route>
+        ></Route> */}
         <Route 
           path="/costplaning" 
           element={
