@@ -46,9 +46,10 @@ export default function Menu2Section() {
                         {services.map((service, index) => (
                             <Card 
                                 key={index} 
-                                className="p-5 text-center transition duration-300 transform hover:scale-105 hover:bg-indigo-600 hover:text-white shadow-lg rounded-xl flex flex-col items-center"
+                                className="group p-5 text-center shadow-lg rounded-xl flex flex-col items-center transition duration-300
+                                        md:hover:scale-105 md:hover:bg-indigo-600 md:hover:text-white"
                             >
-                                <service.icon className="w-12 h-12 text-indigo-700 hover:text-white mb-3 transition duration-300" />
+                                <service.icon className="w-12 h-12 mb-3 md:group-hover:text-white transition duration-300 text-indigo-600" />
                                 <CardContent>
                                     <h2 className="text-xl font-semibold">{service.title}</h2>
                                     <p className="text-sm opacity-90 mt-2">{service.desc}</p>

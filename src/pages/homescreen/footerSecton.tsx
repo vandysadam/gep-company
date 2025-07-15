@@ -9,7 +9,7 @@ const SectionFooter = () => {
           
           {/* Company Info */}
           <div className="flex flex-col items-center md:items-start">
-            <h3 className="text-xl font-semibold mb-2">QS Company</h3>
+            <h3 className="text-xl font-semibold mb-2">Pt. Graha Estimatika Pradana</h3>
             <p className="text-sm opacity-80">
               Your trusted partner in quantity surveying and cost management.
             </p>
@@ -55,10 +55,6 @@ const SectionFooter = () => {
           </div>
         </div>
 
-        {/* Footer Bottom */}
-        <div className="mt-8 border-t border-gray-600 pt-4 text-center">
-          <p className="text-sm opacity-80">&copy; {new Date().getFullYear()} QS Company. All rights reserved.</p>
-        </div>
       </div>
     </footer>
   )

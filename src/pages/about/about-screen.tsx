@@ -76,8 +76,8 @@ export default function About() {
           <div className="relative border-4 col-span-2 px-5 mt-20 border-stone-400" data-aos="fade-left">
               <h3 className="absolute font-bold text-5xl sm:text-6xl lg:text-7xl py-2 -mt-8 ml-27 px-5 sm:py-4 sm:-mt-12 sm:ml-[400px] sm:px-5 md:ml-[450px] lg:py-8 lg:-mt-20 lg:ml-[90px] lg:px-5 text-stone-400 bg-neutral-50"> TUJUAN </h3>
                 {services.map((service, index) => (
-                  <Card key={index} className="group p-5 m-4 mt-10 text-center transition duration-300 transform hover:scale-105 hover:bg-zinc-500 hover:text-white shadow-lg rounded-xl flex flex-col items-center ">
-                  <service.icon className="w-12 h-12 text-indigo-700  mb-3 transition duration-300 group-hover:text-white"/>
+                  <Card key={index} className="group p-5 m-4 mt-10 text-center transition duration-300 transform md:hover:scale-105 md:hover:bg-zinc-500 md:hover:text-white shadow-lg rounded-xl flex flex-col items-center ">
+                  <service.icon className="w-12 h-12 text-indigo-700  mb-3 transition duration-300 md:group-hover:text-white"/>
                   <CardContent>
                   <p className="text-base opacity-90 mt-2">{service.desc}</p>
                   </CardContent>
