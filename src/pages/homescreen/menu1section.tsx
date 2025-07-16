@@ -1,5 +1,5 @@
 
-import backGround from "../../assets/images/background.jpg";
+// import backGround from "../../assets/images/background.jpg";
 import MenuHeaderSection from "@/assets/menu-header-section";
 import logoUrl from '@/assets/images/PT.GRAHA_ESTIMATIKA_PRADANA.png';
 import { useEffect, useState } from "react";
@@ -36,8 +36,8 @@ export default function Menu1Section() {
             {/* Background Section */}
             <div className="relative h-full flex items-center">
                 {/* Background Image */}
-                <div className="absolute inset-0">
-                    <img src={backGround} alt="Background" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-stone-400">
+                    {/* <img src={} alt="Background" className="w-full h-full object-cover" /> */}
                     <div className="absolute inset-0  "></div>
                 </div>
 
