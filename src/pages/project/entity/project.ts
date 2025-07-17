@@ -29,11 +29,11 @@ import RsiaStellaMaris3 from "../../../assets/images/Data-Foto-Proyek/proyek-rsi
 import RsiaStellaMaris4 from "../../../assets/images/Data-Foto-Proyek/proyek-rsia-stella-maris-medan/STLMRS-4.webp";
 import RsiaStellaMaris5 from "../../../assets/images/Data-Foto-Proyek/proyek-rsia-stella-maris-medan/STLMRS-5.webp";
 
-import NovotelYogyakarta from "../../../assets/images/Data-Foto-Proyek/proyek-novotel-yohyakarta/Proyek-Novotel-Yogya.webp";
-import NovotelYogyakarta1 from "../../../assets/images/Data-Foto-Proyek/proyek-novotel-yohyakarta/NVTL-1.jpg";
-import NovotelYogyakarta2 from "../../../assets/images/Data-Foto-Proyek/proyek-novotel-yohyakarta/NVTL-2.jpg";
-import NovotelYogyakarta3 from "../../../assets/images/Data-Foto-Proyek/proyek-novotel-yohyakarta/NVTL-3.jpg";
-import NovotelYogyakarta4 from "../../../assets/images/Data-Foto-Proyek/proyek-novotel-yohyakarta/NVTL-4.jpg";
+// import NovotelYogyakarta from "../../../assets/images/Data-Foto-Proyek/proyek-novotel-yohyakarta/Proyek-Novotel-Yogya.webp";
+// import NovotelYogyakarta1 from "../../../assets/images/Data-Foto-Proyek/proyek-novotel-yohyakarta/NVTL-1.jpg";
+// import NovotelYogyakarta2 from "../../../assets/images/Data-Foto-Proyek/proyek-novotel-yohyakarta/NVTL-2.jpg";
+// import NovotelYogyakarta3 from "../../../assets/images/Data-Foto-Proyek/proyek-novotel-yohyakarta/NVTL-3.jpg";
+// import NovotelYogyakarta4 from "../../../assets/images/Data-Foto-Proyek/proyek-novotel-yohyakarta/NVTL-4.jpg";
 
 import ApartmentPoris88 from "../../../assets/images/Data-Foto-Proyek/proyek-poris-88-apartmen/Proyek-Poris-88-Apartement-Tangerang.webp";
 import NovotelBatam from "../../../assets/images/Data-Foto-Proyek/proyek-novotel-batam/Proyek-Novotel-Batam.webp";
@@ -171,20 +171,20 @@ export const projek = [
     tanggalSpk: "07/11/2022",
     grossArea: "28.687 m2",
   },
-  {
-    id: "Proyek-Novotel-Yogya",
-    title: "Hotel Novotel - Yogyakarta",
-    image: NovotelYogyakarta,
-    images: [
-      NovotelYogyakarta,
-      NovotelYogyakarta1,
-      NovotelYogyakarta2,
-      NovotelYogyakarta3,
-      NovotelYogyakarta4,
-    ],
-    tanggalSpk: "25/06/2018",
-    grossArea: "626 m2",
-  },
+  // {
+  //   id: "Proyek-Novotel-Yogya",
+  //   title: "Hotel Novotel - Yogyakarta",
+  //   image: NovotelYogyakarta,
+  //   images: [
+  //     NovotelYogyakarta,
+  //     NovotelYogyakarta1,
+  //     NovotelYogyakarta2,
+  //     NovotelYogyakarta3,
+  //     NovotelYogyakarta4,
+  //   ],
+  //   tanggalSpk: "25/06/2018",
+  //   grossArea: "626 m2",
+  // },
   {
     id: "Proyek-Poris-88-Apartement-Tangerang",
     title: "Apartemen Poris 88 - Tangerang",
