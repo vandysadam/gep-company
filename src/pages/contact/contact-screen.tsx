@@ -35,7 +35,7 @@ const Contact = () => {
               <Phone className="text-indigo-600 mt-1" />
               <div>
                 <p className="text-sm text-gray-600 font-medium">Telepon</p>
-                <p className="text-lg font-semibold text-gray-800">(021) 731-7611</p>
+                <h4 className="text-lg font-semibold text-gray-800">(021) 731-7611</h4>
               </div>
             </div>
 
@@ -43,7 +43,7 @@ const Contact = () => {
               <Mail className="text-indigo-600 mt-1" />
               <div>
                 <p className="text-sm text-gray-600 font-medium">Email</p>
-                <p className="text-lg font-semibold text-gray-800">gep_qs@yahoo.co.id</p>
+                <h5 className="text-lg font-semibold text-gray-800">gep_qs@yahoo.co.id</h5>
               </div>
             </div>
 
@@ -51,11 +51,11 @@ const Contact = () => {
               <MapPin className="text-indigo-600 mt-1" />
               <div>
                 <p className="text-sm text-gray-600 font-medium">Alamat</p>
-                <p className="text-base text-gray-800 leading-relaxed">
+                <h6 className="text-base text-gray-800 leading-relaxed">
                   Ruko Aden Residence No. 4<br />
                   Jl. Raya Wisma, Tajur Ciledug<br />
                   Tangerang, Banten 15152, Indonesia
-                </p>
+                </h6>
               </div>
             </div>
           </div>

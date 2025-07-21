@@ -16,9 +16,9 @@ const ProjectGallery = () => {
       <section className="relative w-full py-16 bg-gray-50 overflow-hidden">
         <div className="max-w-6xl mx-auto text-center px-6 ">
           <h2 className="text-2xl sm:text-4xl font-extrabold text-indigo-900 mb-6">Galeri Proyek</h2>
-          <p className="text-lg text-gray-700 max-w-2xl mx-auto">
+          <h3 className="text-lg text-gray-700 max-w-2xl mx-auto">
             Lihat berbagai proyek yang telah kami kerjakan di berbagai sektor.
-          </p>
+          </h3>
         </div>
         
 
@@ -43,7 +43,7 @@ const ProjectGallery = () => {
                   }`}
                 />
                 <div className=" absolute bottom-3 left-2 p-2 px-3 text-center font-semibold  text-black bg-gray-200 rounded">
-                  <p className="md:text-sm sm:text-base text-sm max-w-2xl">{p.title}</p>
+                  <h3 className="md:text-sm sm:text-base text-sm max-w-2xl">{p.title}</h3>
                 </div>
               </div>
               

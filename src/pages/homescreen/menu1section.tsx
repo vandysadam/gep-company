@@ -50,16 +50,16 @@ export default function Menu1Section() {
                 >
                 PT. Graha Estimatika Pradana
                 </h1>
-                <h1
+                <h2
                 className={`text-2xl md:text-3xl lg:text-4xl font-extrabold text-white drop-shadow-[3px_5px_2px_rgba(0,0,0,0.9)] transition-all duration-1000 ease-out ${
                     isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
                 }`}
                 >
                 Quantity Surveyor
-                </h1>
-                    <p className="text-base md:text-lg mt-4 opacity-90 font-bold drop-shadow-[2px_5px_2px_rgba(0,0,0,0.8)]">
+                </h2>
+                    <h3 className="text-base md:text-lg mt-4 opacity-90 font-bold drop-shadow-[2px_5px_2px_rgba(0,0,0,0.8)]">
                         Your Expert in Project Cost Planning and Control.
-                    </p>
+                    </h3>
                     {/* <Button size="lg" className="mt-6  hover:bg-blue-950">
                         View Our Catalog
                     </Button> */}
