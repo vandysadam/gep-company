@@ -9,7 +9,7 @@ const SectionFooter = () => {
           
           {/* Company Info */}
           <div className="flex flex-col items-center md:items-start">
-            <h3 className="text-xl font-semibold mb-2">QS Company</h3>
+            <h3 className="text-xl font-semibold mb-2">PT. Graha Estimatika Pradana</h3>
             <p className="text-sm opacity-80">
               Your trusted partner in quantity surveying and cost management.
             </p>
@@ -52,29 +52,25 @@ const SectionFooter = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <Phone className="text-white" />
-                <p className="text-white"><strong>Phone:</strong> (021) 731-7611</p>
+                <h4 className="text-white"><strong>Phone:</strong> (021) 731-7611</h4>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="text-white" />
-                <p className="text-white"><strong>Email:</strong> gep_qs@yahoo.co.id</p>
+                <h5 className="text-white"><strong>Email:</strong> gep_qs@yahoo.co.id</h5>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="text-white" />
-                <p className="text-white">
+                <h6 className="text-white">
                   <strong>Address:</strong> <br />
                   Ruko Aden Residence No. 4 <br />
                   Jl. Raya Wisma, Tajur Ciledug <br />
                   Tangerang, Banten 15152, Indonesia
-                </p>
+                </h6>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Footer Bottom */}
-        <div className="mt-8 border-t border-gray-600 pt-4 text-center">
-          <p className="text-sm opacity-80">&copy; {new Date().getFullYear()} QS Company. All rights reserved.</p>
-        </div>
       </div>
     </footer>
   )

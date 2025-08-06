@@ -4,9 +4,9 @@ export default function Menu4Section() {
         <section className="relative w-full py-16 ">
            <div className="max-w-6xl mx-auto text-center px-6">
                 <h2 className="text-4xl font-extrabold text-indigo-900 mb-6">Kantor Kami</h2>
-                <p className="text-lg text-gray-700 max-w-2xl mx-auto">
+                <h3 className="text-lg text-gray-700 max-w-2xl mx-auto">
                     PT. GRAHA ESTIMATIKA PRADANA
-                </p>
+                </h3>
             </div>
             {/* Grid Project Cards */}
             <div className="flex justify-center mt-10">
