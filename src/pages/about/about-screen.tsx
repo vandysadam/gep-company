@@ -98,6 +98,7 @@ export default function About() {
         
 
         <div className="relative border-8 border-stone-400 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 max-w-7xl mx-auto px-auto sm:px-4 lg:px-6 mt-20 pt-16 py-10" data-aos="fade-up">
+
         <div className="absolute font-bold text-[40px] sm:text-[90px] lg:text-[124px] text-stone-400 font-arial px-5 -mt-10 sm:-mt-[100px] lg:-mt-[115px] bg-neutral-50" data-aos="fade-right"><h2>LINGKUP QS</h2></div>
 
         <div className="block sm:hidden px-4">
